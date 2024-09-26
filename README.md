@@ -6,6 +6,8 @@ The host box initiates a reverse ssh connection to the relay box, and a user can
 must have openssh-server and autossh installed
 
 # Usage
+## download and edit the host_setup.sh file
+only need to edit the four parameters at the top of the file
 ## run host_setup.sh on the host machine
 
 It will 
