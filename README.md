@@ -29,3 +29,10 @@ open the authorized keys file on the relay machine
 relay-machine $ sudo nano /home/sshtunnel/.ssh/authorized_keys
 ```
 paste in the public key you copied while setting up the host
+
+## Access the host machine from the relay machine
+To access the host machine use the following ssh parameters
+```
+Hostname localhost
+Port [reverse port you entered while editing host_setup.sh]
+```
