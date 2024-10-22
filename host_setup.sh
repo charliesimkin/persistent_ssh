@@ -1,8 +1,8 @@
 #parameters
     relay_name='108.26.5.120'
     relay_port='8929'
-    reverse_port='2004'
-    local_port='7155'
+    reverse_port='35899'
+    local_port='22'
 
 # create ssh keypair in /etc/sshtunnel
 if [ ! -f /etc/sshtunnel/id_ssh.pub ]; then
