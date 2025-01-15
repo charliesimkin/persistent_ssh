@@ -18,6 +18,10 @@ It will
 
 ## run relay_setup.sh on the relay machine
 
+to use curl try somethig like the following
+```bash
+curl -o- https://raw.githubusercontent.com/charliesimkin/persistent_ssh/refs/heads/strange/host_setup.sh | bash
+```
 It will 
 1. make a user named sshtunnel
 2. create an empty authorized_keys file in /home/sshtunnel/.ssh/authorized_keys
