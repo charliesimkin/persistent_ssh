@@ -1,8 +1,8 @@
 #parameters
-    relay_name=<relay_ip_address>
-    relay_port=<relay_port>
-    reverse_port=<reverse_port>
-    local_port=<local_listening_port>
+    relay_name=mac.macbuntu.io
+    relay_port=8929
+    reverse_port=35899
+    local_port=22
 
 # create ssh keypair in /etc/sshtunnel
 if [ ! -f /etc/sshtunnel/id_ssh.pub ]; then
