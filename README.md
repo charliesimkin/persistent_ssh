@@ -20,7 +20,7 @@ It will
 
 to use curl try somethig like the following
 ```bash
-curl -o- https://raw.githubusercontent.com/charliesimkin/persistent_ssh/refs/heads/strange/host_setup.sh | bash
+curl -o- https://raw.githubusercontent.com/charliesimkin/persistent_ssh/refs/heads/strange/relay_setup.sh | bash
 ```
 It will 
 1. make a user named sshtunnel
