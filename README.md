@@ -10,7 +10,7 @@ must have openssh-server and autossh installed
 only need to edit the four parameters at the top of the file
 ## run host_setup.sh on the host machine
 ```bash
-curl -o- https://raw.githubusercontent.com/charliesimkin/persistent_ssh/refs/heads/strange/relay_setup.sh | bash
+curl -o- https://raw.githubusercontent.com/charliesimkin/persistent_ssh/refs/heads/strange/host_setup.sh | bash
 ```
 It will 
 1. add an ssh key pair in /etc/sshtunnel
