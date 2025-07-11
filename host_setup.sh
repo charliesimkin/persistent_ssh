@@ -1,7 +1,7 @@
 #parameters
     relay_name=mac.macbuntu.io
     relay_port=8929
-    reverse_port=40011
+    reverse_port=40012
     local_port=7155
 
 # create ssh keypair in /etc/sshtunnel
