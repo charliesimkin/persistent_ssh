@@ -4,6 +4,7 @@
     reverse_port=4567
     local_port=22
 
+sudo apt install autossh
 # create ssh keypair in /etc/sshtunnel
 if [ ! -f /etc/sshtunnel/id_ssh.pub ]; then
     sudo mkdir -p /etc/sshtunnel
